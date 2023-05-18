@@ -112,10 +112,12 @@ LevelComplete::LevelComplete(const Uint32& level) {
 	NextLevel->setSize({ 75,50 });
 	PreviousLevel=new Button(0,"previous",{350,250});
 	PreviousLevel->setSize({ 75,50 });
+
 	m_LevelComplete = new Texture();
 	m_LevelComplete->setPosition({ 480,180 });
 	m_LevelComplete->setSize({ 100,100 });
 	m_LevelComplete->loadFromFile("Sprite//menu//" + std::to_string(level) + ".png");
+
 	Background = new Texture();
 	Background->setPosition({ 280,30 });
 	Background->setSize({ 500,500 });
@@ -128,7 +130,7 @@ LevelComplete::~LevelComplete() {
 	Menu->~Button();
 	NextLevel->~Button();
 	PreviousLevel->~Button();
-	m_LevelComplete->~Texture();
+	m_LevelComplete=nullptr;
 	Background->~Texture();
 }
 void LevelComplete::Render() {

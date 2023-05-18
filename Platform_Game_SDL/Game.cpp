@@ -222,7 +222,6 @@ void Game::GameLoop() {
 				win->handle(eve, stateGame, Level);
 				SDL_Delay(30);
 				if (stateGame != WinGame) {
-					delete win;
 					break;
 				}
 			}
