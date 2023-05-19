@@ -1,6 +1,8 @@
 # Platform_Game_SDL
--Là tựa Game 2d đơn gian 
--Bạn sẽ được hóa thân thành một nhà thám hiểm vượt qua các chướng ngại vật để có thể lấy được chìa khóa vàng và mở hòm kho báu
+* Full name: Nguyễn Xuân Khải - 22021191
+* Class K67CC - University of Engineering and Technology
+* Là tựa Game 2d đơn gian 
+* Bạn sẽ được hóa thân thành một nhà thám hiểm vượt qua các chướng ngại vật để có thể lấy được chìa khóa vàng và mở hòm kho báu
 # Cách Cài Đặt
 ![0 00](https://github.com/22021191/Platform_Game_SDL/assets/132531766/60e1c55d-b998-4b78-a40f-23f556f2536a)
 Chọn download zip , sau khi download về giải nén 
